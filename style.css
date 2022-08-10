@@ -268,14 +268,29 @@ body {
 
 .chatcontiner .content .message-form ul li.emoji-btn a {
     background-color: #0984e3;
+    transition: 300ms transform;
+}
+
+.chatcontiner .content .message-form ul li.emoji-btn a:hover {
+    transform: scale(1.1);
 }
 
 .chatcontiner .content .message-form ul li.sound-btn a {
     background-color: #ff5722;
+    transition: 300ms transform;
+}
+
+.chatcontiner .content .message-form ul li.sound-btn a:hover {
+    transform: scale(1.1);
 }
 
 .chatcontiner .content .message-form ul li.image-btn a {
     background-color: #4caf50;
+    transition: 300ms transform;
+}
+
+.chatcontiner .content .message-form ul li.image-btn a:hover {
+    transform: scale(1.1);
 }
 
 .chatcontiner .content .message-form ul li.input {
